@@ -1,4 +1,4 @@
-fetch('https://api.weatherapi.com/v1/current.json?key=62a8e7e0c26f4333b81154101251911&q=samarkand&aqi=no')
+fetch('https://api.weatherapi.com/v1/current.json?key=62a8e7e0c26f4333b81154101251911&q=bekobod&aqi=no')
     .then(response => response.json())
     .then(data => {
         const imgD = document.getElementById('img-main')
@@ -55,3 +55,4 @@ fetch('https://api.weatherapi.com/v1/current.json?key=62a8e7e0c26f4333b811541012
         textD.appendChild(vaqt)
 
     })
+
